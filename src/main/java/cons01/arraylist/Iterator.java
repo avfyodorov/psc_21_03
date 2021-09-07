@@ -1,0 +1,6 @@
+package cons01.arraylist;
+
+public interface Iterator<E> {
+    boolean hasNext();
+    E next();
+}
