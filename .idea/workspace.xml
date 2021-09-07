@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/arraylist/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/arraylist/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/arraylist/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/lecture/collect/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/lecture/collect/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/lecture/collect/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/lecture/collect/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/lecture/collect/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/weak/Gc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/weak/TypeOfRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/weak/WeakHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/weak/WeakRef.java" afterDir="false" />
+    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="consalt 01">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/Exampl03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/GenericExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cons01/weak/Gc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cons01/weak/Gc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +130,21 @@
       <option name="presentableId" value="Default" />
       <updated>1630944200719</updated>
     </task>
+    <task id="LOCAL-00001" summary="consalt 01">
+      <created>1631005212315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631005212315</updated>
+    </task>
+    <task id="LOCAL-00002" summary="consalt 01">
+      <created>1631005237419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631005237419</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,5 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="consalt 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="consalt 01" />
   </component>
 </project>

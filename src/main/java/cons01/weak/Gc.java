@@ -36,7 +36,7 @@ package cons01.weak;
 
 
 //=======================
-
+/*
 import cons01.arraylist.Iterator;
 import cons01.arraylist.List;package cons01.arraylist;
 
@@ -148,7 +148,7 @@ public class ArrayList<E> implements List<E> {
       return new cons01.arraylist.ArrayList.ArrayIterator();
    }
 }
-
+*/
 public class Gc {
    public static void main(String[] args) {
       //принудительный вызов  для очистки кеша, поиск утечек памяти, очистка после старта сервера
