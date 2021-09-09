@@ -4,7 +4,7 @@ public class StringCollisions {
         String[] collisionStrings = {
                 "pollinating sandboxes",
                 "amusement & hemophilias",
-                "schoolworks = perversive",
+                "schoolworks ==== perversive",
                 "electrolysissweeteners.net",
                 "Microcomputers: the unredeemed lollipop..."};
         for (String s : collisionStrings) {
