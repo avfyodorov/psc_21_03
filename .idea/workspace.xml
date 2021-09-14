@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="consult 02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/arraylist/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons02/hw/CheckPsw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons02/hw/Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons02/hw/SymbolCounter.java" afterDir="false" />
+    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="consult 02 finish">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/Coder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/ExceptionOrCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/ThrowsAnyLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/censor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/source.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,20 +64,12 @@
       <recent name="cons01.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckPsw">
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons01.arraylist.ArrayTest" />
-      <module name="psc_21_03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cons01.arraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="//Создать статический метод public static void censorFile(String inoutFileName, String[] obscene), // в котором прочитать файл inoutFileName и заменить слова, содержащиеся в String[] obscene на '*', // соответствующие количеству символов в слове, изменения записать в исходный файл. // В случае возникновения ошибки, выбросить свое собственное исключение CensorException // в котором сохранить - строку, полученную у оригинального exception через метод getMessage() и имя файла, // в котором возникла ошибка. В классе перекрыть метод toString(), вернув &lt;имя файла&gt;:&lt;строка ошибки&gt;. // Класс CensorException разместить в классе Censor // //        Например файл содержит: //        Java — строго типизированный объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). //        obscene = {&quot;Java&quot;, &quot;Oracle&quot;, &quot;Sun&quot;, &quot;Microsystems&quot;} // //        Должен выдать результат: //        **** — строго типизированный объектно-ориентированный язык программирования, разработанный компанией *** ************ (в последующем приобретённой компанией ******). " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Coder">
     <configuration name="CheckPsw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cons02.hw.CheckPsw" />
       <module name="psc_21_03" />
@@ -87,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons02.hw.Password" />
+    <configuration name="Coder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons03.examples.Coder" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons02.hw.*" />
+          <option name="PATTERN" value="cons03.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCollisions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons02.hash.StringCollisions" />
+    <configuration name="ExceptionOrCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons03.examples.ExceptionOrCompare" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons02.hash.*" />
+          <option name="PATTERN" value="cons03.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymbolCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons02.hw.SymbolCounter" />
+    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons03.examples.Random" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons02.hw.*" />
+          <option name="PATTERN" value="cons03.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThrowsAnyLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons03.examples.ThrowsAnyLevels" />
+      <module name="psc_21_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cons03.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Coder" />
+        <item itemvalue="Application.ExceptionOrCompare" />
+        <item itemvalue="Application.ThrowsAnyLevels" />
+        <item itemvalue="Application.Random" />
         <item itemvalue="Application.CheckPsw" />
-        <item itemvalue="Application.Password" />
-        <item itemvalue="Application.SymbolCounter" />
-        <item itemvalue="Application.ArrayTest" />
-        <item itemvalue="Application.StringCollisions" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631178068046</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="consult 02 finish">
+      <created>1631610065211</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631610065211</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +209,7 @@
     <MESSAGE value="consalt 01" />
     <MESSAGE value="consalt 01 final" />
     <MESSAGE value="consult 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="consult 02" />
+    <MESSAGE value="consult 02 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="consult 02 finish" />
   </component>
 </project>
