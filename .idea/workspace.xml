@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="consult 02">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons01/arraylist/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons02/hw/CheckPsw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons02/hw/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons02/hw/SymbolCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +60,13 @@
       <recent name="cons01.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringCollisions">
-    <configuration name="HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons02.hash.HashCode" />
+  <component name="RunManager" selected="Application.CheckPsw">
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons01.arraylist.ArrayTest" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons02.hash.*" />
+          <option name="PATTERN" value="cons01.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons02.lists.LinkedListForTest" />
+    <configuration name="CheckPsw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons02.hw.CheckPsw" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons02.lists.*" />
+          <option name="PATTERN" value="cons02.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListsAddInCenterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons02.lists.ListsAddInCenterTest" />
+    <configuration name="Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons02.hw.Password" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons02.lists.*" />
+          <option name="PATTERN" value="cons02.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeakHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons01.weak.WeakHash" />
+    <configuration name="SymbolCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons02.hw.SymbolCounter" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons01.weak.*" />
+          <option name="PATTERN" value="cons02.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckPsw" />
+        <item itemvalue="Application.Password" />
+        <item itemvalue="Application.SymbolCounter" />
+        <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.StringCollisions" />
-        <item itemvalue="Application.HashCode" />
-        <item itemvalue="Application.ListsAddInCenterTest" />
-        <item itemvalue="Application.LinkedListForTest" />
-        <item itemvalue="Application.WeakHash" />
       </list>
     </recent_temporary>
   </component>
