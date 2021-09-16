@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="consult 02 finish">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/Coder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/ExceptionOrCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/ThrowsAnyLevels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/censor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons03/examples/source.txt" afterDir="false" />
+    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="consult 03">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons04/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons04/LoopExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons04/SortExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons04/StdFuncIntr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons04/StreamExamlpe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +57,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\psc_21_03\src\main\java\cons01\lecture\collect" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cons04" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cons01.arraylist" />
     </key>
@@ -69,20 +69,7 @@
       <command value="//Создать статический метод public static void censorFile(String inoutFileName, String[] obscene), // в котором прочитать файл inoutFileName и заменить слова, содержащиеся в String[] obscene на '*', // соответствующие количеству символов в слове, изменения записать в исходный файл. // В случае возникновения ошибки, выбросить свое собственное исключение CensorException // в котором сохранить - строку, полученную у оригинального exception через метод getMessage() и имя файла, // в котором возникла ошибка. В классе перекрыть метод toString(), вернув &lt;имя файла&gt;:&lt;строка ошибки&gt;. // Класс CensorException разместить в классе Censor // //        Например файл содержит: //        Java — строго типизированный объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). //        obscene = {&quot;Java&quot;, &quot;Oracle&quot;, &quot;Sun&quot;, &quot;Microsystems&quot;} // //        Должен выдать результат: //        **** — строго типизированный объектно-ориентированный язык программирования, разработанный компанией *** ************ (в последующем приобретённой компанией ******). " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Coder">
-    <configuration name="CheckPsw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons02.hw.CheckPsw" />
-      <module name="psc_21_03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cons02.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamExamlpe">
     <configuration name="Coder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cons03.examples.Coder" />
       <module name="psc_21_03" />
@@ -96,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionOrCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons03.examples.ExceptionOrCompare" />
+    <configuration name="LoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons04.LoopExample" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons03.examples.*" />
+          <option name="PATTERN" value="cons04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons03.examples.Random" />
+    <configuration name="SortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons04.SortExample" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons03.examples.*" />
+          <option name="PATTERN" value="cons04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsAnyLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons03.examples.ThrowsAnyLevels" />
+    <configuration name="StdFuncIntr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons04.StdFuncIntr" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons03.examples.*" />
+          <option name="PATTERN" value="cons04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExamlpe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons04.StreamExamlpe" />
+      <module name="psc_21_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cons04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamExamlpe" />
+        <item itemvalue="Application.SortExample" />
+        <item itemvalue="Application.StdFuncIntr" />
+        <item itemvalue="Application.LoopExample" />
         <item itemvalue="Application.Coder" />
-        <item itemvalue="Application.ExceptionOrCompare" />
-        <item itemvalue="Application.ThrowsAnyLevels" />
-        <item itemvalue="Application.Random" />
-        <item itemvalue="Application.CheckPsw" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631610065211</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="consult 03">
+      <created>1631615173398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631615173398</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +217,7 @@
     <MESSAGE value="consalt 01 final" />
     <MESSAGE value="consult 02" />
     <MESSAGE value="consult 02 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="consult 02 finish" />
+    <MESSAGE value="consult 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="consult 03" />
   </component>
 </project>
