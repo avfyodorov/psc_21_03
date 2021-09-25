@@ -4,24 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="consult 05 Threads">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/attest/FieldsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/attest/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/attest/Shapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/attest/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/concur/ArraySetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/concur/BlockingQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/concur/ConcurrentLinkedQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/concur/CopyOnWriteArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/concur/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons06reflection/summ/Summator.java" afterDir="false" />
+    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="consult 06 Reflecton">
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/attestation/korshik/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/attestation/korshik/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/attestation/korshik/reflect/CleanerPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/attestation/korshik/reflect/MapProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/attestation/korshik/reflect/ObjectProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/attestation/korshik/reflect/ReflectionProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/summator/Summator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/summator/SummatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/MinMaxLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/NotEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/TaskRegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Validator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework01_TV/Channel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework01_TV/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework01_TV/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework01_TV/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework01_TV/TV.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,52 +79,26 @@
       <command value="//Создать статический метод public static void censorFile(String inoutFileName, String[] obscene), // в котором прочитать файл inoutFileName и заменить слова, содержащиеся в String[] obscene на '*', // соответствующие количеству символов в слове, изменения записать в исходный файл. // В случае возникновения ошибки, выбросить свое собственное исключение CensorException // в котором сохранить - строку, полученную у оригинального exception через метод getMessage() и имя файла, // в котором возникла ошибка. В классе перекрыть метод toString(), вернув &lt;имя файла&gt;:&lt;строка ошибки&gt;. // Класс CensorException разместить в классе Censor // //        Например файл содержит: //        Java — строго типизированный объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). //        obscene = {&quot;Java&quot;, &quot;Oracle&quot;, &quot;Sun&quot;, &quot;Microsystems&quot;} // //        Должен выдать результат: //        **** — строго типизированный объектно-ориентированный язык программирования, разработанный компанией *** ************ (в последующем приобретённой компанией ******). " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Summator">
-    <configuration name="ArraySetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons06reflection.concur.ArraySetExample" />
-      <module name="psc_21_03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cons06reflection.concur.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons06reflection.concur.BlockingQueueExample" />
-      <module name="psc_21_03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cons06reflection.concur.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcurrentLinkedQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons06reflection.concur.ConcurrentLinkedQueueExample" />
-      <module name="psc_21_03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cons06reflection.concur.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SummatorDemo">
     <configuration name="FieldsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cons06reflection.attest.FieldsExample" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cons06reflection.attest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.attestation.korshik.Main" />
+      <module name="psc_21_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="misc.attestation.korshik.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +119,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SummatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.summator.SummatorDemo" />
+      <module name="psc_21_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="misc.summator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskRegistrationForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.TaskRegistrationForm" />
+      <module name="psc_21_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SummatorDemo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TaskRegistrationForm" />
         <item itemvalue="Application.Summator" />
         <item itemvalue="Application.FieldsExample" />
-        <item itemvalue="Application.ConcurrentLinkedQueueExample" />
-        <item itemvalue="Application.BlockingQueueExample" />
-        <item itemvalue="Application.ArraySetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632218461119</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="consult 06 Reflecton">
+      <created>1632391246133</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1632391246133</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +253,7 @@
     <MESSAGE value="consult 03" />
     <MESSAGE value="consult 04" />
     <MESSAGE value="consult 05 Threads" />
-    <option name="LAST_COMMIT_MESSAGE" value="consult 05 Threads" />
+    <MESSAGE value="consult 06 Reflecton" />
+    <option name="LAST_COMMIT_MESSAGE" value="consult 06 Reflecton" />
   </component>
 </project>
