@@ -2,6 +2,7 @@ package cons08solid.solid;
 
 public class Solid {
 }
+/*
 public class OrderProcessor {
 
    public void process(Order order){
@@ -190,3 +191,5 @@ public class OrderProcessor {
       }
    }
 }
+
+ */

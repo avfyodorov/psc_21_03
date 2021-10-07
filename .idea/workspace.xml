@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="patterns">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons08solid/abstractfabrica/AbstractF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cons08solid/solid/Solid.java" afterDir="false" />
+    <list default="true" id="f47f18cb-d005-46a9-b1e0-44a05667da49" name="Changes" comment="patterns rpg">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons09sql/ConnectToWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons09sql/Join.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons10view/CallSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cons10view/Sql.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cons08solid/solid/Solid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cons08solid/solid/Solid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/cons01/lecture/collect" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cons01/arraylist" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -67,7 +73,7 @@
       <command value="//Создать статический метод public static void censorFile(String inoutFileName, String[] obscene), // в котором прочитать файл inoutFileName и заменить слова, содержащиеся в String[] obscene на '*', // соответствующие количеству символов в слове, изменения записать в исходный файл. // В случае возникновения ошибки, выбросить свое собственное исключение CensorException // в котором сохранить - строку, полученную у оригинального exception через метод getMessage() и имя файла, // в котором возникла ошибка. В классе перекрыть метод toString(), вернув &lt;имя файла&gt;:&lt;строка ошибки&gt;. // Класс CensorException разместить в классе Censor // //        Например файл содержит: //        Java — строго типизированный объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). //        obscene = {&quot;Java&quot;, &quot;Oracle&quot;, &quot;Sun&quot;, &quot;Microsystems&quot;} // //        Должен выдать результат: //        **** — строго типизированный объектно-ориентированный язык программирования, разработанный компанией *** ************ (в последующем приобретённой компанией ******). " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Builder">
+  <component name="RunManager" selected="Application.ConnectToWorld">
     <configuration name="Builder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cons07patterns.builder.Builder" />
       <module name="psc_21_03" />
@@ -81,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.attestation.korshik.Main" />
+    <configuration name="ConnectToWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cons09sql.ConnectToWorld" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="misc.attestation.korshik.*" />
+          <option name="PATTERN" value="cons09sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Summator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cons06reflection.summ.Summator" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.attestation.korshik.Main" />
       <module name="psc_21_03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cons06reflection.summ.*" />
+          <option name="PATTERN" value="misc.attestation.korshik.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectToWorld" />
         <item itemvalue="Application.Builder" />
         <item itemvalue="Application.SummatorDemo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TaskRegistrationForm" />
-        <item itemvalue="Application.Summator" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632824744962</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="patterns rpg">
+      <created>1632996315682</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632996315682</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +271,7 @@
     <MESSAGE value="consult 06 Reflecton" />
     <MESSAGE value="attestation 01" />
     <MESSAGE value="patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="patterns" />
+    <MESSAGE value="patterns rpg" />
+    <option name="LAST_COMMIT_MESSAGE" value="patterns rpg" />
   </component>
 </project>
