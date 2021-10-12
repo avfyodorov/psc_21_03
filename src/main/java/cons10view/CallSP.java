@@ -1,5 +1,5 @@
 package cons10view;
-
+/*
 import java.io.PrintWriter;
 import java.sql.*;
 
@@ -64,3 +64,4 @@ public class CallSP {
         end;
         ' language plpgsql';
 
+*/
